@@ -196,3 +196,4 @@ def test_get_api_key_with_wrong_email_and_correct_password(email=invalid_email, 
     assert status == 403
     assert 'key' not in result
 
+#
